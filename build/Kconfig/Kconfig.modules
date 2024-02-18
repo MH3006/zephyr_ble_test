@@ -1,0 +1,174 @@
+menu "acpica (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/acpica)"
+osource "$(ZEPHYR_ACPICA_KCONFIG)"
+config ZEPHYR_ACPICA_MODULE
+	bool
+	default y
+endmenu
+menu "canopennode (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/canopennode)"
+osource "$(ZEPHYR_CANOPENNODE_KCONFIG)"
+config ZEPHYR_CANOPENNODE_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/cmsis)"
+osource "$(ZEPHYR_CMSIS_KCONFIG)"
+config ZEPHYR_CMSIS_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-dsp (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/cmsis-dsp)"
+osource "$(ZEPHYR_CMSIS_DSP_KCONFIG)"
+config ZEPHYR_CMSIS_DSP_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-nn (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/cmsis-nn)"
+osource "$(ZEPHYR_CMSIS_NN_KCONFIG)"
+config ZEPHYR_CMSIS_NN_MODULE
+	bool
+	default y
+endmenu
+menu "fatfs (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/fs/fatfs)"
+osource "$(ZEPHYR_FATFS_KCONFIG)"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ambiq (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/ambiq)"
+osource "$(ZEPHYR_HAL_AMBIQ_KCONFIG)"
+config ZEPHYR_HAL_AMBIQ_MODULE
+	bool
+	default y
+endmenu
+menu "hal_espressif (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/espressif)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/espressif/zephyr/Kconfig"
+config ZEPHYR_HAL_ESPRESSIF_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ethos_u (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/ethos_u)"
+osource "$(ZEPHYR_HAL_ETHOS_U_KCONFIG)"
+config ZEPHYR_HAL_ETHOS_U_MODULE
+	bool
+	default y
+endmenu
+menu "hal_gigadevice (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/gigadevice)"
+osource "$(ZEPHYR_HAL_GIGADEVICE_KCONFIG)"
+config ZEPHYR_HAL_GIGADEVICE_MODULE
+	bool
+	default y
+endmenu
+menu "hal_infineon (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/infineon)"
+osource "$(ZEPHYR_HAL_INFINEON_KCONFIG)"
+config ZEPHYR_HAL_INFINEON_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nordic (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/nordic)"
+osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
+config ZEPHYR_HAL_NORDIC_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nxp (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/nxp)"
+osource "$(ZEPHYR_HAL_NXP_KCONFIG)"
+config ZEPHYR_HAL_NXP_MODULE
+	bool
+	default y
+endmenu
+menu "hal_rpi_pico (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/rpi_pico)"
+osource "$(ZEPHYR_HAL_RPI_PICO_KCONFIG)"
+config ZEPHYR_HAL_RPI_PICO_MODULE
+	bool
+	default y
+endmenu
+menu "silabs (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/silabs)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/silabs/zephyr/Kconfig"
+config ZEPHYR_SILABS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_telink (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/telink)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/hal/telink/Kconfig"
+config ZEPHYR_HAL_TELINK_MODULE
+	bool
+	default y
+endmenu
+menu "liblc3 (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/liblc3)"
+osource "$(ZEPHYR_LIBLC3_KCONFIG)"
+config ZEPHYR_LIBLC3_MODULE
+	bool
+	default y
+endmenu
+menu "littlefs (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/fs/littlefs)"
+osource "$(ZEPHYR_LITTLEFS_KCONFIG)"
+config ZEPHYR_LITTLEFS_MODULE
+	bool
+	default y
+endmenu
+menu "loramac-node (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/loramac-node)"
+osource "$(ZEPHYR_LORAMAC_NODE_KCONFIG)"
+config ZEPHYR_LORAMAC_NODE_MODULE
+	bool
+	default y
+endmenu
+menu "lvgl (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/gui/lvgl)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/gui/lvgl/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+menu "mbedtls (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/crypto/mbedtls)"
+osource "$(ZEPHYR_MBEDTLS_KCONFIG)"
+config ZEPHYR_MBEDTLS_MODULE
+	bool
+	default y
+endmenu
+menu "openthread (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/openthread)"
+osource "$(ZEPHYR_OPENTHREAD_KCONFIG)"
+config ZEPHYR_OPENTHREAD_MODULE
+	bool
+	default y
+endmenu
+menu "percepio (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/debug/percepio)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/debug/percepio/zephyr/Kconfig"
+config ZEPHYR_PERCEPIO_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/picolibc)"
+osource "D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-m (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/tee/tf-m/trusted-firmware-m)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_M_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_M_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-a (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/tee/tf-a/trusted-firmware-a)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_A_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_A_MODULE
+	bool
+	default y
+endmenu
+menu "uoscore-uedhoc (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/uoscore-uedhoc)"
+osource "$(ZEPHYR_UOSCORE_UEDHOC_KCONFIG)"
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+	bool
+	default y
+endmenu
+menu "zcbor (D:/VSCode/C Coding/ZephyrBluetooth/deps/modules/lib/zcbor)"
+osource "$(ZEPHYR_ZCBOR_KCONFIG)"
+config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu
